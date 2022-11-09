@@ -26,7 +26,7 @@ public class JokeResource {
     @GET
     @Path("/get")
     @Produces(MediaType.TEXT_PLAIN)
-    public String hello() {
+    public String joke() {
         return this.getJoke();
     }
     
